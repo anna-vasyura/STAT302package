@@ -16,6 +16,8 @@ Suggests:
     knitr,
     rmarkdown,
     testthat (>= 3.0.0)
+Imports:
+    tibble
 Config/testthat/edition: 3
 Depends: 
     R (>= 2.10)
