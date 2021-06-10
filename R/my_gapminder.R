@@ -34,7 +34,4 @@
 #'   filter(min_rank(worst_le_delta) < 2) %>%
 #'   arrange(worst_le_delta)
 #' }
-"my_penguins"
-library(gapminder)
-data(gapminder)
-my_gapminder <- gapminder
+"my_gapminder"
