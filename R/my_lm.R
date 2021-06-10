@@ -13,3 +13,4 @@
 #' my_lm(formula = lifeExp ~ gdpPercap + continent, data = my_gapminder)
 #' 
 #' @export
+my_lm <- lm
