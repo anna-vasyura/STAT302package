@@ -10,4 +10,3 @@
 #' @examples
 #' 
 #' @export
-my_rf_cv <- rf.cv
