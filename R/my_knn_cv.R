@@ -15,4 +15,3 @@
 #' @examples
 #' 
 #' @export
-my_knn_cv <- knn.df
