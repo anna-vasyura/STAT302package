@@ -18,3 +18,31 @@ knitr::opts_chunk$set(
 ```{r setup}
 library(STAT302package)
 ```
+
+## Introduction
+
+This R package contains several functions written for STAT302 at the University of Washington in Spring 2021. Those functions include `my_t.test`, `my_lm`, `my_knn_cv`, and `my_rf_cv`. You can use them for running a t test, creating a linear model, or cross-validation with k-nearest neighbors or random forest. The package can be installed from GitHub using the following code:
+
+```{r, eval = FALSE}
+install.packages("devtools")
+devtools::install_github("anna-vasyura/STAT302package")
+library(STAT302package)
+```
+
+## Tutorial for my_t.test
+
+x <- as.vector(subset(data.frame(my_gapminder), select = c("lifeExp")))
+alternative <- c("two.sided", "less", "greater")
+mu <- 60
+
+my_t.test(x, alternative = "two.sided", mu)
+
+my_t.test(x, alternative = "less", mu)
+
+my_t.test(x, alternative = "greater", mu)
+
+## Tutorial for my_lm
+
+## Tutorial for my_knn_cv
+
+## Tutorial for my_rf_cv
